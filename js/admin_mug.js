@@ -293,6 +293,7 @@ var MugShot = {
     name.id = this.mugs[this.cfi].name.id;
     name.value = (tagName) ? tagName : '';
     name.className = 'mugshot-textbox';
+    name.autocomplete = 'new-password';
     name.style.top = parseInt(mug.top) + parseInt(mug.height) + 'px';
     name.style.left = mug.el.style.left;
     name.style.width = mug.el.style.width;
